@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import { promise1, promise2 } from './api';
 
 export default function App() {
   const [state, setState] = React.useState(null);
